@@ -9,3 +9,7 @@ npx create-medusa-app@latest --seed --db-url postgres://default:KoSBl0T1AYUu@ep-
                                  │           Start your Medusa app again with the following command:            │
                                  │                                                                              │
                                  │                       npx @medusajs/medusa-cli develop   
+
+
+
+https://govindhansv-medusaecomm-f189by373ww.ws-us107.gitpod.io/
