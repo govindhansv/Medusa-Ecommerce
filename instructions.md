@@ -13,3 +13,6 @@ npx create-medusa-app@latest --seed --db-url postgres://default:KoSBl0T1AYUu@ep-
 
 
 https://govindhansv-medusaecomm-f189by373ww.ws-us107.gitpod.io/
+
+npx medusa user -e some@email.com -p some-password
+npx medusa user -e admin@gmail.com -p admin 
