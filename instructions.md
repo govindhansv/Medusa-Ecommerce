@@ -16,3 +16,6 @@ https://govindhansv-medusaecomm-f189by373ww.ws-us107.gitpod.io/
 
 npx medusa user -e some@email.com -p some-password
 npx medusa user -e admin@gmail.com -p admin 
+
+// for storefront
+mv .env.template .env.local
