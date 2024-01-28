@@ -6,6 +6,10 @@ import FeaturedProducts from "@modules/home/components/featured-products"
 import Hero from "@modules/home/components/hero"
 import { getRegion } from "app/actions"
 import { ProductCollectionWithPreviews } from "types/global"
+import FlashSaleBanner from "@modules/home/components/flash-sale"
+import SecondBanner from "@modules/home/components/second-banner"
+// import CollectionCategory from "@modules/home/components/collection-category"
+import AmericanDiamond from "@modules/home/components/american-diamond"
 
 export const metadata: Metadata = {
   title: "Medusa Next.js Starter Template",
@@ -69,6 +73,21 @@ export default async function Home({
   return (
     <>
       <Hero />
+      <div className='mt-8'>
+
+      <FlashSaleBanner/>
+      </div>
+      <div className='mt-10'>
+        <SecondBanner/>
+      </div>
+      <div className='mt-10'>
+        {/* <CollectionCategory/> */}
+      </div>
+      
+      <div className='my-16'>
+        <AmericanDiamond/>
+      </div>
+
       <div className="py-12">
         <ul className="flex flex-col gap-x-6">
           <FeaturedProducts collections={collections} region={region} />
