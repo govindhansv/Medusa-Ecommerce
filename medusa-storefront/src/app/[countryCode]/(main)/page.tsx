@@ -8,7 +8,7 @@ import { getRegion } from "app/actions"
 import { ProductCollectionWithPreviews } from "types/global"
 import FlashSaleBanner from "@modules/home/components/flash-sale"
 import SecondBanner from "@modules/home/components/second-banner"
-// import CollectionCategory from "@modules/home/components/collection-category"
+import CollectionCategory from "@modules/home/components/collection-category"
 import AmericanDiamond from "@modules/home/components/american-diamond"
 
 export const metadata: Metadata = {
@@ -81,7 +81,7 @@ export default async function Home({
         <SecondBanner/>
       </div>
       <div className='mt-10'>
-        {/* <CollectionCategory/> */}
+        <CollectionCategory/>
       </div>
       
       <div className='my-16'>

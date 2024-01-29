@@ -33,8 +33,10 @@ export default async function ProductPreview({
   })
 
   return (
-<>
-    <LocalizedClientLink href={`/products/${productPreview.handle}`}  className="flex flex-col max-w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg md:h-[380px]">
+    <>
+      
+
+      <LocalizedClientLink href={`/products/${productPreview.handle}`}  className="flex flex-col max-w-[264px] justify-around items-center border border-[#CC4254]  bg-[#FFEFF1] rounded-lg md:h-[380px]">
     <div className="w-full h-[90%] flex justify-center items-center bg-white m-0 border-b rounded-lg border-b-[#CC4254]">
       <img
         alt="Necklace"
@@ -51,9 +53,9 @@ export default async function ProductPreview({
       />
     </div>
     <span>{productPreview.title}</span>
-  </LocalizedClientLink>
+  </LocalizedClientLink> 
 
-    {/* <LocalizedClientLink
+      {/* <LocalizedClientLink
       href={`/products/${productPreview.handle}`}
       className="group"
     >
@@ -70,8 +72,7 @@ export default async function ProductPreview({
           </div>
         </div>
       </div>
-    </LocalizedClientLink> */}
-</>
-
+      </LocalizedClientLink>*/}
+    </>
   )
 }

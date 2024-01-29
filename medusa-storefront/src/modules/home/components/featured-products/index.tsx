@@ -1,6 +1,5 @@
+import { Button } from "@/components/ui/button"
 import { Region } from "@medusajs/medusa"
-import { Button } from "@medusajs/ui"
-
 import ProductRail from "@modules/home/components/featured-products/product-rail"
 import { ProductCollectionWithPreviews } from "types/global"
 
@@ -16,9 +15,11 @@ export default async function FeaturedProducts({
       <div className="flex justify-center">
         <div className="w-[1550px] lg:px-40 rounded-xl mx-auto p-8 bg-[#FFEFF1] ">
           <h1 className="text-center text-[#2C2C2C] text-3xl my-8">
-            American Diamond
+            {/* American Diamond */}
+            {collection.title}
           </h1>
-          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8  mb-4">
+          <div >
+          {/* <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8  mb-4" > */}
             <ProductRail collection={collection} region={region} />
           </div>
           <div className="mt-8 flex justify-center">

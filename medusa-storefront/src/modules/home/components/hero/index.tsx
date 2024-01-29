@@ -1,5 +1,7 @@
 import { Github } from "@medusajs/icons"
-import { Button, Heading } from "@medusajs/ui"
+// import { Button, Heading } from "@medusajs/ui"
+import { Button } from "@/components/ui/button"
+
 
 const Hero = () => {
   return (
@@ -14,7 +16,7 @@ const Hero = () => {
       <h1 className='text-7xl'>yourself</h1> 
       <h1 className='text-4xl'>with our</h1> 
       <h1 className='text-7xl'>Classics</h1>
-      <Button className="bg-[#CC4254] text-white font-Inter">Shop Collection</Button>
+      <Button className="bg-[#CC4254] text-white font-Inter mt-3 ">Shop Collection</Button>
       </div>
     </div>
     <div className="pt-4 bg-no-repeat bg-bottom  flex items-end" style={{backgroundSize:'100%'}}>
