@@ -11,3 +11,5 @@ medusa-config.js
 Hosting Backend and admin seperately , else requires 2gb ram. cyclic have 1, render have 512 mb
 
 
+cross env not found 
+soln added npx keyword in package.json
