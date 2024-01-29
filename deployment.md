@@ -24,4 +24,6 @@ changing clean scripts
 
     old scripts above
 
+    removing admin commands
+
     

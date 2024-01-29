@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "clean": "npx cross-env ./node_modules/.bin/rimraf dist",
-    "build": "npx cross-env npm run build:server && npm run build:admin",
+    "build": "npx cross-env npm run build:server",
     "build:server": "npx cross-env tsc -p tsconfig.server.json",
     "build:admin": "npx cross-env medusa-admin build",
     "watch": "cross-env tsc --watch",
