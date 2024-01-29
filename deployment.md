@@ -26,4 +26,6 @@ changing clean scripts
 
     removing admin commands
 
-    
+    npm start command edited
+
+    npm run build && 
