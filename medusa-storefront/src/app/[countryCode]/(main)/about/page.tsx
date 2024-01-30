@@ -25,7 +25,7 @@ const About = () => {
               <p className="text-lg font-Inter font-light">
                 Welcome to helah, where every piece tells a story of affordable glamour. Proudly made in India with a
                 passion for blending style and accessibility, we bring you imitation jewelry that mirrors the beauty of real
-                gems. Join us on this journey of adornment, where each piece at helah is more than an accessory it's a
+                gems. Join us on this journey of adornment, where each piece at helah is more than an accessory its a
                 reflection of your unique style.
               </p>
               <Button className="bg-[#CC4254] w-[230px] h-[52px]  font-Inter text-lg hover:bg-[#973b47] p-6 text-white">Explore our collections</Button>
