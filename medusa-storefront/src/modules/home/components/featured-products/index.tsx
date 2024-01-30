@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 import { Region } from "@medusajs/medusa"
+import { Button } from "@medusajs/ui"
 import ProductRail from "@modules/home/components/featured-products/product-rail"
 import { ProductCollectionWithPreviews } from "types/global"
 

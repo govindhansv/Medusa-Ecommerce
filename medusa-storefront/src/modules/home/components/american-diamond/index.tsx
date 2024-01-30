@@ -1,5 +1,6 @@
+import { Button } from "@medusajs/ui";
 import React from "react";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 
 const AmericanDiamond = () => {
   return (
