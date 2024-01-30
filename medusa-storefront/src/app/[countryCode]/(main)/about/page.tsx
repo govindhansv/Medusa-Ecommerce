@@ -25,7 +25,7 @@ const About = () => {
               <p className="text-lg font-Inter font-light">
                 Welcome to helah, where every piece tells a story of affordable glamour. Proudly made in India with a
                 passion for blending style and accessibility, we bring you imitation jewelry that mirrors the beauty of real
-                gems. Join us on this journey of adornment, where each piece at helah is more than an accessory – it's a
+                gems. Join us on this journey of adornment, where each piece at helah is more than an accessory it's a
                 reflection of your unique style.
               </p>
               <Button className="bg-[#CC4254] w-[230px] h-[52px]  font-Inter text-lg hover:bg-[#973b47] p-6 text-white">Explore our collections</Button>
@@ -37,9 +37,9 @@ const About = () => {
         <div className="w-full flex items-end flex-col justify-center text-right pr-8">
           <h2 className="text-5xl  text-[#CC4254] mb-6">Brand Story</h2>
           <p className="text-lg font-Inter font-light text-black">
-            Helah, a sanctuary of style founded in 1999 by Ubaid. For over two decades, we've been devoted to delivering
+            Helah, a sanctuary of style founded in 1999 by Ubaid. For over two decades, w ve been devoted to delivering
             affordable elegance to adorn your unique journey. From our origins as a wholesale hub to the heart of South
-            India's jewelry scene, Helah has flourished into a name synonymous with craftsmanship and sophistication.
+            Indias jewelry scene, Helah has flourished into a name synonymous with craftsmanship and sophistication.
           </p>
           <Button className="mt-6 bg-[#CC4254] w-[230px] h-[52px] font-Inter text-lg hover:bg-[#973b47] p-6 text-white ">Explore our collections</Button>
         </div>
